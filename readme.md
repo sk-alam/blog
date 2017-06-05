@@ -31,23 +31,28 @@ If you finished first three steps, now you can create database on your database 
 Step 5: Install
 Database:
 For create database tables use this command:
-php artisan migrate
+`php artisan migrate`
+
 And to initial populate database use this:
-php artisan db:seed
+`php artisan db:seed`
+
 Generate App Key with this command:
-php artisan key:generate
+`php artisan key:generate`
+
 File System:
 Need get full permission on "storage" folder:
-chmod -R 777 storage
+`chmod -R 777 storage`
 
 Step 6: Web Server
 
 Go to the project root directory and run
-php artisan serve
+`php artisan serve`
 
 Step 7: Start Page
+
 In the web browser start app using http://127.0.0.1:8000
 You should see one blog created from seed.
 You can now login as admin:
-username: admin@blog.com
-password: admin123
+
+`username: admin@blog.com
+password: admin123`
